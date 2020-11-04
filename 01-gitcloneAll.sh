@@ -16,5 +16,7 @@ test ! -d ~/Project/GitHub/ray20140811/Parabola-101 && git clone https://github.
 
 test ! -d ~/Project/GitHub/ray20140811/Banglejs && git clone https://github.com/ray20140811/Banglejs.git ~/Project/GitHub/ray20140811/Banglejs || echo "Banglejs exist" && git pull origin master
 
-test ! -d ~/Project/GitHub/ray20140811/FreeJapanese && git clone https://github.com/ray20140811/FreeJapanese.git ~/Project/GitHub/ray20140811/FreeJapanese || echo "FreeJapanese exist" && git pull origin master
+test ! -d ~/Project/GitHub/ray20140811/JapaneseClassroom && git clone https://github.com/ray20140811/JapaneseClassroom.git ~/Project/GitHub/ray20140811/JapaneseClassroom || echo "JapaneseClassroom exist" && git pull origin master
+
+test ! -d ~/Project/GitHub/ray20140811/TaiwanElementarySchool && git clone https://github.com/ray20140811/TaiwanElementarySchool.git ~/Project/GitHub/ray20140811/TaiwanElementarySchool || echo "TaiwanElementarySchool exist" && git pull origin master
 

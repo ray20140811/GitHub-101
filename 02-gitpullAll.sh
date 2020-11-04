@@ -30,3 +30,13 @@ git pull origin master
 cd $PHOME/Banglejs
 git status
 git pull origin master
+
+#cd ~/Project/GitHub/ray20140811/JapaneseClassroom/
+cd $PHOME/JapaneseClassroom
+git status
+git pull origin master
+
+#cd ~/Project/GitHub/ray20140811/TaiwanElementarySchool/
+cd $PHOME/TaiwanElementarySchool
+git status
+git pull origin master
