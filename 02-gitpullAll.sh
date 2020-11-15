@@ -1,6 +1,11 @@
 #!/bin/bash
 
-PHOME=~/Project/GitHub/ray20140811
+PHOME=/mnt/d/Project/GitHub/ray20140811
+#PHOME=~/Project/GitHub/ray20140811
+cd $PHOME/momotaikumi
+git status
+git pull origin master
+
 #cd ~/Project/GitHub/ray20140811/JustForFun/
 cd $PHOME/JustForFun
 git status
