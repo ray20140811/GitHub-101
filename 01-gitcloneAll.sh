@@ -10,12 +10,15 @@ else
 	PHOME=/mnt/d/Project/GitHub/ray20140811
 fi
 
+
+MOMOTAIKUMI=momotaikumi
 JAPANESECLASSROOM=JapaneseClassroom
 JUSTFORFUN=JustForFun
 TAIWANELEMENTARYSCHOOL=TaiwanElementarySchool
 GITHUB=GitHub-101
 JAVASCRIPT=JavaScript-101
 
+test ! -d $PHOME/$MOMOTAIKUMI && git clone https://github.com/ray20140811/$MOMOTAIKUMI.git $PHOME/$MOMOTAIKUMI || echo $MOMOTAIKUMI "exist" && git pull origin master
 
 test ! -d $PHOME/$JAPANESECLASSROOM && git clone https://github.com/ray20140811/$JAPANESECLASSROOM.git $PHOME/$JAPANESECLASSROOM || echo $JAPANESECLASSROOM "exist" && git pull origin master
 
